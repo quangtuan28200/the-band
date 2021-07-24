@@ -1,0 +1,75 @@
+/* pc */
+@media screen and (min-width: 1024px){
+    #header .menu-bar{
+        display: none;
+    } 
+}
+
+/* mobile */
+@media screen and (max-width: 46.1875em){
+    #nav{
+        display: block;
+    }
+    #mobile-menu{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    #nav >li{
+        display: block;
+    }
+    #nav >li:first-child{
+        display: inline-block;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #header .search{
+        display: none;
+    }
+
+    #nav .subNav{
+        position: initial;
+        background-color: rgb(110, 110, 110);
+    }
+
+    #nav .subNav a{
+        color: white;
+        padding: 5px 48px;
+    }
+
+    #slider .textDes,
+    #slider .textHead{
+        display: none;
+    }
+
+    #content .member{      
+        display: flex;
+        flex-direction: column;
+    }
+
+    #content .member img{
+        width: 210px;
+    }
+    .col-third{
+        width: 100%;
+    }
+    .col-half{
+        width: 100%;
+    }
+    .contact-input .send-bt {
+        width: 100%;
+        float: none;
+    }
+    .buyTickets{
+        text-align: center;
+        width: 100%;
+    }
+}
+
+/* tablet */
+@media screen and (min-width:46.25em) and (max-width: 63.9375em){
+    #header .menu-bar{
+        display: none;
+    } 
+}
